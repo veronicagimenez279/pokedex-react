@@ -1,0 +1,44 @@
+.bg {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .info {
+
+        max-width: 650px;
+        width: 95%;
+        background-color: white;
+        height: auto;
+        padding-bottom: 30px;
+        bottom: 0;
+        position: relative;
+        margin-bottom: 1rem;
+        margin-top: 200px;
+        border-radius: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+
+        img {
+            position: absolute;
+            margin: 0 auto;
+            margin-top: -200px;
+            width: 275px;
+            height: 275px;
+            object-fit: contain;
+        }
+
+    }
+}
+
+.loadingcontainer {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
